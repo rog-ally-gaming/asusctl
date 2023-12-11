@@ -1,0 +1,17 @@
+pkgbase = rog-ally-motion-evdev
+	pkgdesc = Exposes bmi323 chip over an evdev interface
+	pkgver = 1.0.0
+	pkgrel = 1
+	url = https://github.com/NeroReflex/ally-motion-evdev/
+	arch = x86_64
+	license = BSD
+	makedepends = cmake
+	provides = ally-motion-evdev
+	source = ally-motion-evdev::git+https://github.com/NeroReflex/ally-motion-evdev.git
+	source = ally-motion-evdev.service
+	source = 10-ally-motion-evdev.rule
+	sha256sums = SKIP
+	sha256sums = b4eaf36b99d0565d31d77d1a3872fb5eae94075dc078b8ccf137634a39232dd6
+	sha256sums = 6954a9e1c614be8ff7ebf5456713d31735f1d3b0dfc92365e2c378ca3e99de6d
+
+pkgname = rog-ally-motion-evdev

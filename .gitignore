@@ -1,0 +1,8 @@
+*.tar*
+/pkg
+/src
+*.patch
+*.asc
+/src/**
+/pkg/**
+/asusctl/**
