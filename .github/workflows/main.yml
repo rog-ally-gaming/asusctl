@@ -1,4 +1,4 @@
-name: Build ROG Ally motion evdev
+name: Build asusd
 
 on:
   push:
